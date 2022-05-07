@@ -1,0 +1,2 @@
+rootProject.name = "NTT Filmes"
+include ':app'
