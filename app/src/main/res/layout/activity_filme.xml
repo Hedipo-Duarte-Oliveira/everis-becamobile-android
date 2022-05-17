@@ -23,6 +23,7 @@
 
         <ImageView
             android:id="@+id/movie_imageView_filme"
+            android:contentDescription="@string/PosterMovie"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"/>
@@ -55,12 +56,5 @@
             android:numStars="5"/>
 
     </LinearLayout>
-
-
-
-    <!--<androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv_movies_details"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />-->
 
 </ScrollView>

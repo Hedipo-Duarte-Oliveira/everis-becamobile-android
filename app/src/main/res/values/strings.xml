@@ -4,4 +4,12 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="trending_view">Trending</string>
     <string name="popular_view">Popular</string>
+    <string name="Filmespopulares">Populares</string>
+    <string name="Trending">\@string</string>
+    <string name="MaxFilmes">\@string</string>
+    <string name="MoviesTendencias">\@string</string>
+    <string name="TitleMovie">\@string</string>
+    <string name="ClassMovie">\@string</string>
+    <string name="SinopseMovie">\@string</string>
+    <string name="PosterMovie">\@string</string>
 </resources>
