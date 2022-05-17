@@ -1,4 +1,4 @@
-package com.hedipoduarte.nttfilmes
+package com.hedipoduarte.nttfilmes.presenter.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -9,7 +9,8 @@ import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.hedipoduarte.nttfilmes.models.Movie
+import com.hedipoduarte.nttfilmes.R
+import com.hedipoduarte.nttfilmes.domain.model.Movie
 
 class MovieAdapter(
     private val movies : List<Movie>,

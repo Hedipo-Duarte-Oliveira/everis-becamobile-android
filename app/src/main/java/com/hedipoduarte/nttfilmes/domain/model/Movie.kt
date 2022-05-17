@@ -1,4 +1,4 @@
-package com.hedipoduarte.nttfilmes.models
+package com.hedipoduarte.nttfilmes.domain.model
 
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName

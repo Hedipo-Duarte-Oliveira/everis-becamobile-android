@@ -1,18 +1,19 @@
-package com.hedipoduarte.nttfilmes
+package com.hedipoduarte.nttfilmes.presenter
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.ImageView
 import android.widget.RatingBar
 import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
 import com.google.gson.Gson
 import com.google.gson.JsonObject
-import com.hedipoduarte.nttfilmes.models.Movie
-import com.hedipoduarte.nttfilmes.services.MovieApiInterface
-import com.hedipoduarte.nttfilmes.services.MovieApiService
+import com.hedipoduarte.nttfilmes.R
+import com.hedipoduarte.nttfilmes.data.api.MovieApiInterface
+import com.hedipoduarte.nttfilmes.domain.MovieApiService
+import com.hedipoduarte.nttfilmes.domain.model.Movie
 import org.json.JSONObject
 import retrofit2.Call
 import retrofit2.Response
@@ -90,7 +91,5 @@ class FilmeActivity : AppCompatActivity() {
         ratingBar.rating = (selectedMovie?.vote_average?.div(2))!!.toFloat()
         Glide.with(this@FilmeActivity).load(IMAGE_BASE + selectedMovie!!.poster)
             .into(movie_imageView_filme)
-
     }
-
 }

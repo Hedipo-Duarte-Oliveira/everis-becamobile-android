@@ -1,2 +1,3 @@
 rootProject.name = "NTT Filmes"
 include ':app'
+include ':helper'

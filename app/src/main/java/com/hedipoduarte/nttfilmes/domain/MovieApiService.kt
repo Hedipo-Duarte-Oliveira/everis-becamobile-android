@@ -1,4 +1,4 @@
-package com.hedipoduarte.nttfilmes.services
+package com.hedipoduarte.nttfilmes.domain
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

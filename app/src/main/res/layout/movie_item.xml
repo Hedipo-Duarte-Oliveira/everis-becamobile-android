@@ -10,7 +10,7 @@
     android:layout_marginEnd="16dp"
     android:layout_marginRight="16dp"
     android:layout_marginBottom="8dp"
-    android:background="#2F02AE"
+    android:background="#010383"
     android:id="@+id/cardMovie">
 
     <ImageView

@@ -12,10 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NTTFilmes">
         <activity
-            android:name=".FilmeActivity"
+            android:name=".presenter.FilmeActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".presenter.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
