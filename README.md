@@ -6,7 +6,7 @@ Hedipo-Duarte/Beca-Android/Filmes
 https://user-images.githubusercontent.com/82849041/167650442-acfaed1d-c3d8-4353-846b-3c23250d5ade.mp4
 
 
-Ultilzando o Acessibilty Scanner, em seguida o resultado do scanner.
+Ultilizando o Acessibilty Scanner, em seguida o resultado do scanner.
 
 
 https://user-images.githubusercontent.com/82849041/169154322-bceac00d-7ae3-4a63-863e-e5ea9427f85c.mp4
