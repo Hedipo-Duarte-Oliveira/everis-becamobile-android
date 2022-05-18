@@ -19,9 +19,7 @@ import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
-class PopularFragment :
-    Fragment(),
-    MovieAdapter.ClickMovie {
+class PopularFragment : Fragment(), MovieAdapter.ClickMovie {
 
     private lateinit var rv_movies_list_popular: RecyclerView
     var viewLayout: View? = null
@@ -31,7 +29,7 @@ class PopularFragment :
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
+
         viewLayout = inflater.inflate(R.layout.fragment_popular, container, false)
 
         rv_movies_list_popular = viewLayout!!.findViewById(R.id.rv_movies_list_popular)

@@ -29,7 +29,6 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="16dp"
                 android:text="MAX FILMES"
-                android:contentDescription="@string/MaxFilmes"
                 android:gravity="center_horizontal"
                 android:textColor="#FB0707"
                 android:textSize="30sp"
@@ -41,7 +40,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginLeft="16dp"
-                android:text="@string/popular_view"
+                android:text="@string/popular_movies"
                 android:textColor="@color/white" />
 
             <androidx.recyclerview.widget.RecyclerView

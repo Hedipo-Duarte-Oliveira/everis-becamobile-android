@@ -13,10 +13,10 @@ import com.hedipoduarte.nttfilmes.R
 import com.hedipoduarte.nttfilmes.domain.model.Movie
 
 class MovieAdapter(
-    private val movies : List<Movie>,
+    private val movies: List<Movie>,
     val context: Context,
     var clickMovie: ClickMovie
-) : RecyclerView.Adapter<MovieAdapter.MovieViewHolder>(){
+) : RecyclerView.Adapter<MovieAdapter.MovieViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MovieViewHolder {
 
@@ -27,10 +27,9 @@ class MovieAdapter(
         return holder
     }
 
-    interface ClickMovie{
+    interface ClickMovie {
 
         fun clickMovie(movies: Movie)
-
     }
 
     override fun onBindViewHolder(holder: MovieViewHolder, position: Int) {
@@ -39,40 +38,33 @@ class MovieAdapter(
 
         val item = movies.get(position)
 
-        if(item.title == null || item.title == "") {
+        if (item.title == null || item.title == "") {
             holder.movie_title.text = item.name
-        }else{
+        } else {
             holder.movie_title.text = item.title
         }
-        if(item.release == null || item.release == "") {
+        if (item.release == null || item.release == "") {
             holder.movie_release_date.text = item.first_air_date
-        }else{
+        } else {
             holder.movie_release_date.text = item.release
         }
 
-        Glide.with(context).load(IMAGE_BASE+item.poster).into(holder.movie_poster)
+        Glide.with(context).load(IMAGE_BASE + item.poster).into(holder.movie_poster)
 
-
-
-        holder.cardMovie.setOnClickListener(object: View.OnClickListener{
+        holder.cardMovie.setOnClickListener(object : View.OnClickListener {
             override fun onClick(p0: View?) {
 
                 clickMovie.clickMovie(item)
-
             }
-
         })
-
     }
 
     override fun getItemCount(): Int = movies.size
 
-    class MovieViewHolder(view : View) : RecyclerView.ViewHolder(view){
+    class MovieViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val movie_title = itemView.findViewById<TextView>(R.id.movie_title)
         val movie_release_date = itemView.findViewById<TextView>(R.id.movie_release_date)
         val movie_poster = itemView.findViewById<ImageView>(R.id.movie_poster)
         val cardMovie = itemView.findViewById<ConstraintLayout>(R.id.cardMovie)
-
     }
-
 }

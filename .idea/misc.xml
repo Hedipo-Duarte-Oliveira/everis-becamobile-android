@@ -3,12 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/hduartol/AndroidStudioProjects/NTTFilmes/app/src/main/res/drawable/ic_baseline_popular.xml" value="0.1" />
+        <entry key="..\:/Users/hduartol/AndroidStudioProjects/NTTFilmes/app/src/main/res/drawable/ic_baseline_trending.xml" value="0.1" />
         <entry key="..\:/Users/hduartol/AndroidStudioProjects/NTTFilmes/app/src/main/res/layout/activity_filme.xml" value="0.1" />
         <entry key="..\:/Users/hduartol/AndroidStudioProjects/NTTFilmes/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/hduartol/AndroidStudioProjects/NTTFilmes/app/src/main/res/layout/details_movie.xml" value="0.1796875" />
         <entry key="..\:/Users/hduartol/AndroidStudioProjects/NTTFilmes/app/src/main/res/layout/fragment_popular.xml" value="0.1" />
         <entry key="..\:/Users/hduartol/AndroidStudioProjects/NTTFilmes/app/src/main/res/layout/fragment_trending.xml" value="0.1" />
-        <entry key="..\:/Users/hduartol/AndroidStudioProjects/NTTFilmes/app/src/main/res/layout/movie_item.xml" value="0.1403985507246377" />
+        <entry key="..\:/Users/hduartol/AndroidStudioProjects/NTTFilmes/app/src/main/res/layout/movie_item.xml" value="0.1" />
       </map>
     </option>
   </component>
